@@ -800,3 +800,28 @@ button {
     gap: 2.5rem;
   }
 }
+
+@media (max-width: 560px) {
+  .logo {
+    display: none;
+  }
+
+  .tech-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tech {
+    column-gap: 0.6rem;
+    padding: 0.6rem;
+  }
+
+  .tech i {
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
+  }
+
+  .tech-name {
+    font-size: 0.8rem;
+  }
+}
