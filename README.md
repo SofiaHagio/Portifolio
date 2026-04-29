@@ -5,7 +5,7 @@ Um portfólio desenvolvido do zero para apresentar minha trajetória, habilidade
 ---
 
  ## 🌐 Acesse o portfólio online
-🔗 **https://portifolio-olive-seven-80.vercel.app/**
+🔗 https://portifolio-olive-seven-80.vercel.app/
  
 --- 
 
