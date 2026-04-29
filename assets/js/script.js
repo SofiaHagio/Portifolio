@@ -1,4 +1,3 @@
-// Reveal on scroll
 const observer = new IntersectionObserver(entries => {
   entries.forEach((entry, i) => {
     if (entry.isIntersecting) {
@@ -9,7 +8,6 @@ const observer = new IntersectionObserver(entries => {
  
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
  
-// Active nav link on scroll
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav-links a');
  
