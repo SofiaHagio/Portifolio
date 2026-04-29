@@ -1,37 +1,44 @@
-# Sofia Hagio — Portfólio
+# 🌸 Sofia Hagio — Portfólio Pessoal
  
-Portfólio pessoal desenvolvido com HTML, CSS e JavaScript.
- 
-🔗 **[portifolio-jenyvesjih.vercel.app](https://portifolio-jenyvesjih.vercel.app/)**
+Um portfólio desenvolvido do zero para apresentar minha trajetória, habilidades e projetos de forma visual, elegante e interativa.
  
 ---
+
+ ## 🌐 Acesse o portfólio online
+🔗 **https://portifolio-jenyvesjih.vercel.app/**
  
-## seções
+--- 
+
+## 🛠️ Tecnologias utilizadas
  
-- **Hero** — apresentação com foto e botão de download do currículo
-- **Skills** — grid com habilidades técnicas
-- **Formação** — FIAP e SENAC
-- **Experiência** — Estagiária de TI na Prefeitura de São Paulo
-- **Projetos** — AKASOVI, LetterBot e Vinheria Agnello
-- **Contato** — links para e-mail, GitHub, LinkedIn e Instagram
+* HTML5
+* CSS3
+* JavaScript
+* Google Fonts (Playfair Display + Inconsolata)
+  
 ---
  
-## tecnologias
- 
-![HTML](https://img.shields.io/badge/HTML-ffd6e0?style=flat-square&logo=html5&logoColor=9b5e7a)
-![CSS](https://img.shields.io/badge/CSS-e8d5f0?style=flat-square&logo=css3&logoColor=7c5c8a)
-![JavaScript](https://img.shields.io/badge/JavaScript-ffc8dd?style=flat-square&logo=javascript&logoColor=9b5e7a)
- 
----
- 
-## estrutura
+## 📂 Estrutura do repositório
  
 ```
-portifolio/
-├── index.html
-└── assets/
-    ├── css/style.css
-    ├── js/script.js
-    └── img/Foto_Pessoal.jpeg
+📁 portifolio
+ ├── 📄 index.html          ← Página principal
+ ├── 📄 README.md           ← Este arquivo
+ └── 📁 assets
+      ├── 📁 css
+      │    └── 📄 style.css     ← Toda a estilização
+      ├── 📁 js
+      │    └── 📄 script.js     ← Animações e nav ativa
+      └── 📁 img
+           └── 📄 Foto_Pessoal.jpeg
 ```
  
+## 💬 Seções do portfólio
+ 
+* **Hero**: apresentação principal
+* **Skills**: habilidades técnicas em grid
+* **Formação**: histórico educacional
+* **Experiência**: experiência profissional
+* **Projetos**: trabalhos desenvolvidos
+* **Contato**: canais de comunicação
+  
