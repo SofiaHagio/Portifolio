@@ -1,6 +1,6 @@
 # 🌸 Sofia Hagio — Portfólio Pessoal
  
-Um portfólio desenvolvido do zero para apresentar minha trajetória, habilidades e projetos de forma visual e interativa.
+> Um portfólio desenvolvido do zero para apresentar minha trajetória, habilidades e projetos de forma visual e interativa.
  
 ---
 
