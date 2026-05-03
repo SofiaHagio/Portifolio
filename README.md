@@ -22,15 +22,16 @@ Um portfólio desenvolvido do zero para apresentar minha trajetória, habilidade
  
 ```
 📁 portifolio
- ├── 📄 index.html               ← Página principal
- ├── 📄 README.md                ← Este arquivo
- └── 📁 assets
-      ├── 📁 css
-      │    └── 📄 style.css      ← Toda a estilização
-      ├── 📁 js
-      │    └── 📄 script.js      ← Animações e nav ativa
-      └── 📁 img
-           └── 📄 Foto_Pessoal.jpeg
+ ├── 📁 assets
+ │     ├── 📁 css
+ │     │    └── 📄 style.css      ← Toda a estilização
+ │     ├── 📁 js
+ │     │    └── 📄 script.js      ← Animações e nav ativa
+ │     └── 📁 img
+ │          └── 📄 Foto_Pessoal.jpeg
+ ├── 📄 README.md                 ← Este arquivo
+ └── 📄 index.html                ← Página principal
+
 ```
  
 ## 💬 Seções do portfólio
