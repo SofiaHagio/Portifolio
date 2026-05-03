@@ -261,26 +261,6 @@ nav {
   display: block;
 }
  
-.hero-scroll {
-  position: absolute; bottom: 2rem; left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.65rem; 
-  color: var(--muted);
-  letter-spacing: 0.15em; 
-  text-transform: uppercase;
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  gap: 0.5rem;
-  z-index: 2;
-}
-.hero-scroll::after {
-  content: ''; 
-  width: 1px; 
-  height: 36px;
-  background: linear-gradient(to bottom, var(--muted), transparent);
-}
- 
 /*MARQUEE*/
 .marquee-wrap { 
   overflow: hidden; 
