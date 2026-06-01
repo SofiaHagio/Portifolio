@@ -33,14 +33,14 @@
  
 ```
 Portifolio/
- ├── index.html                ← Página principal
+ ├── index.html ← Página principal
  ├── assets/
  │     ├── css/
- │     │    └── style.css      ← Toda a estilização
+ │     │    └── style.css ← Toda a estilização
  │     ├── js/
- │     │    └── script.js      ← Animações e nav ativa
+ │     │    └── script.js ← Animações e nav ativa
  │     └── images/
  │          └── Foto_Pessoal.jpeg
- └── README.md                 ← Este arquivo
+ └── README.md ← Este arquivo
 
   
