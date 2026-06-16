@@ -974,19 +974,3 @@ footer p {
     gap: 2.5rem; 
     padding: 4rem 1.5rem; 
   }
-
-  footer { 
-    flex-direction: column; 
-    gap: 0.6rem; 
-    text-align: center; 
-    padding: 1.5rem; 
-  }
-
-  .edu-grid { 
-    grid-template-columns: 1fr; 
-  }
-
-  .projects-grid { 
-    grid-template-columns: 1fr; 
-  }
-}
