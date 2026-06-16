@@ -247,95 +247,311 @@
           <div class="sec-label">04 / projetos</div>
           <h2 class="sec-title">Projetos</h2>
         </div>
-        <div class="projects-grid reveal">
-          <div class="proj-card">
-            <div class="proj-header">
-              <div class="proj-icon">🏋️</div>
-              <span class="proj-status">Concluído</span>
-            </div>
-            <div class="proj-body">
-              <div class="proj-name">AKASOVI</div>
-              <div class="proj-desc">
-                Experiência digital imersiva que simula um centro de treinamento
-                de alta performance. Marca fictícia criada do zero com
-                identidade visual completa, animações avançadas e múltiplas
-                páginas.
+
+        <div class="proj-tabs reveal">
+          <button class="proj-tab active" data-tab="frontend">Front-End</button>
+          <button class="proj-tab" data-tab="python">Python</button>
+          <button class="proj-tab" data-tab="arduino">Arduino</button>
+        </div>
+
+        <!-- FRONT-END -->
+        <div class="proj-panel active" id="tab-frontend">
+          <div class="projects-grid">
+            <div class="proj-card">
+              <div class="proj-header">
+                <div class="proj-icon">🏋️</div>
+                <span class="proj-status">Concluído</span>
               </div>
-              <div class="proj-tags">
-                <span class="btag to">HTML5</span>
-                <span class="btag to">CSS3</span>
-                <span class="btag to">JavaScript</span>
-                <span class="btag tl">GSAP</span>
-                <span class="btag tp">UX/UI</span>
+              <div class="proj-body">
+                <div class="proj-name">AKASOVI</div>
+                <div class="proj-desc">
+                  Experiência digital imersiva que simula um centro de
+                  treinamento de alta performance. Marca fictícia criada do zero
+                  com identidade visual completa, animações avançadas e
+                  múltiplas páginas.
+                </div>
+                <div class="proj-tags">
+                  <span class="btag to">HTML5</span>
+                  <span class="btag to">CSS3</span>
+                  <span class="btag to">JavaScript</span>
+                  <span class="btag tl">GSAP</span>
+                  <span class="btag tp">UX/UI</span>
+                </div>
+              </div>
+              <div class="proj-footer">
+                <a
+                  href="https://github.com/SofiaHagio/AKASOVI"
+                  target="_blank"
+                  class="proj-link"
+                  >⟨/⟩ Repositório</a
+                >
+                <a
+                  href="https://akasovi.vercel.app/"
+                  target="_blank"
+                  class="proj-link live"
+                  >↗ Demo ao vivo</a
+                >
               </div>
             </div>
-            <div class="proj-footer">
-              <a
-                href="https://github.com/SofiaHagio/AKASOVI"
-                target="_blank"
-                class="proj-link"
-                >⟨/⟩ Repositório</a
-              >
-              <a
-                href="https://akasovi.vercel.app/"
-                target="_blank"
-                class="proj-link live"
-                >↗ Demo ao vivo</a
-              >
+            <div class="proj-card">
+              <div class="proj-header">
+                <div class="proj-icon">🚨</div>
+                <span class="proj-status">Concluído</span>
+              </div>
+              <div class="proj-body">
+                <div class="proj-name">DisasterLink — Landing Page</div>
+                <div class="proj-desc">
+                  Landing page completa para o sistema de comunicação de
+                  emergência DisasterLink. Inclui slideshow automático, quiz
+                  interativo de 10 perguntas, formulário com validação e seletor
+                  de tema em tempo real (Laranja, Rosa e Azul).
+                </div>
+                <div class="proj-tags">
+                  <span class="btag to">HTML5</span>
+                  <span class="btag to">CSS3</span>
+                  <span class="btag to">JavaScript</span>
+                  <span class="btag tg">UX/UI</span>
+                </div>
+              </div>
+              <div class="proj-footer">
+                <a
+                  href="https://github.com/FrameLab-1ESR/DisasterLink"
+                  target="_blank"
+                  class="proj-link"
+                  >⟨/⟩ Repositório</a
+                >
+                <a
+                  href="https://disasterlink-landingpage.vercel.app/"
+                  target="_blank"
+                  class="proj-link live"
+                  >↗ Demo ao vivo</a
+                >
+              </div>
+            </div>
+            <div class="proj-card">
+              <div class="proj-header">
+                <div class="proj-icon">📸</div>
+                <span class="proj-status">Concluído</span>
+              </div>
+              <div class="proj-body">
+                <div class="proj-name">MindFrame</div>
+                <div class="proj-desc">
+                  Site de apresentação de ferramenta educacional para
+                  organização de fotos de estudo. Desenvolvido com HTML, CSS e
+                  JavaScript puro, inclui slideshow com autoplay, modal de
+                  vídeo, login com validação, menu responsivo e animações via
+                  IntersectionObserver.
+                </div>
+                <div class="proj-tags">
+                  <span class="btag to">HTML5</span>
+                  <span class="btag to">CSS3</span>
+                  <span class="btag to">JavaScript</span>
+                  <span class="btag tg">UX/UI</span>
+                </div>
+              </div>
+              <div class="proj-footer">
+                <a
+                  href="https://github.com/SofiaHagio/MindFrame"
+                  target="_blank"
+                  class="proj-link"
+                  >⟨/⟩ Repositório</a
+                >
+                <a
+                  href="https://mindframe-landingpage.vercel.app/"
+                  target="_blank"
+                  class="proj-link live"
+                  >↗ Demo ao vivo</a
+                >
+              </div>
+            </div>
+            <div class="proj-card">
+              <div class="proj-header">
+                <div class="proj-icon">🤖</div>
+                <span class="proj-status">Concluído</span>
+              </div>
+              <div class="proj-body">
+                <div class="proj-name">Claude — Anthropic</div>
+                <div class="proj-desc">
+                  Página web estática sobre o Claude (Anthropic) desenvolvida
+                  com HTML5 e CSS3 puro. Aplica layout com Flexbox, variáveis
+                  CSS e tipografia com Google Fonts, abordando áreas de atuação,
+                  modelos e recursos da plataforma.
+                </div>
+                <div class="proj-tags">
+                  <span class="btag to">HTML5</span>
+                  <span class="btag to">CSS3</span>
+                  <span class="btag tp">Flexbox</span>
+                  <span class="btag tg">UX/UI</span>
+                </div>
+              </div>
+              <div class="proj-footer">
+                <a
+                  href="https://github.com/SofiaHagio/Claude"
+                  target="_blank"
+                  class="proj-link"
+                  >⟨/⟩ Repositório</a
+                >
+                <a
+                  href="https://claude-landingpage.vercel.app/"
+                  target="_blank"
+                  class="proj-link live"
+                  >↗ Demo ao vivo</a
+                >
+              </div>
             </div>
           </div>
-          <div class="proj-card">
-            <div class="proj-header">
-              <div class="proj-icon">🎬</div>
-              <span class="proj-status">Concluído</span>
-            </div>
-            <div class="proj-body">
-              <div class="proj-name">LetterBot</div>
-              <div class="proj-desc">
-                Chatbot interativo em Python que recomenda filmes com base no
-                gênero favorito do usuário. Executa no terminal com seleção de
-                filmes, descrições e avaliações.
+        </div>
+
+        <!-- PYTHON -->
+        <div class="proj-panel" id="tab-python">
+          <div class="projects-grid">
+            <div class="proj-card">
+              <div class="proj-header">
+                <div class="proj-icon">🎬</div>
+                <span class="proj-status">Concluído</span>
               </div>
-              <div class="proj-tags">
-                <span class="btag tp">Python 3</span>
-                <span class="btag tl">Terminal</span>
-                <span class="btag tl">Lógica</span>
+              <div class="proj-body">
+                <div class="proj-name">LetterBot</div>
+                <div class="proj-desc">
+                  Chatbot interativo em Python que recomenda filmes com base no
+                  gênero favorito do usuário. Executa no terminal com seleção de
+                  filmes, descrições e avaliações.
+                </div>
+                <div class="proj-tags">
+                  <span class="btag tp">Python 3</span>
+                  <span class="btag tl">Terminal</span>
+                  <span class="btag tl">Lógica</span>
+                </div>
+              </div>
+              <div class="proj-footer">
+                <a
+                  href="https://github.com/SofiaHagio/LetterBot"
+                  target="_blank"
+                  class="proj-link"
+                  >⟨/⟩ Repositório</a
+                >
               </div>
             </div>
-            <div class="proj-footer">
-              <a
-                href="https://github.com/SofiaHagio/LetterBot"
-                target="_blank"
-                class="proj-link"
-                >⟨/⟩ Repositório</a
-              >
+            <div class="proj-card">
+              <div class="proj-header">
+                <div class="proj-icon">🐾</div>
+                <span class="proj-status">Concluído</span>
+              </div>
+              <div class="proj-body">
+                <div class="proj-name">Jogo do Pug</div>
+                <div class="proj-desc">
+                  Jogo de plataforma 2D desenvolvido com Pygame. O jogador
+                  controla um Pug perdido que deve desviar de monstros, coletar
+                  moedas e chegar ao portal de saída para voltar para casa.
+                </div>
+                <div class="proj-tags">
+                  <span class="btag tp">Python 3</span>
+                  <span class="btag tp">Pygame</span>
+                  <span class="btag tl">Game Dev</span>
+                </div>
+              </div>
+              <div class="proj-footer">
+                <a
+                  href="https://github.com/SofiaHagio/Pygame"
+                  target="_blank"
+                  class="proj-link"
+                  >⟨/⟩ Repositório</a
+                >
+              </div>
+            </div>
+            <div class="proj-card">
+              <div class="proj-header">
+                <div class="proj-icon">🗂️</div>
+                <span class="proj-status">Concluído</span>
+              </div>
+              <div class="proj-body">
+                <div class="proj-name">FrameLab</div>
+                <div class="proj-desc">
+                  Simulação em terminal de uma ferramenta de organização de
+                  fotos de estudo por matéria. Permite cadastrar matérias,
+                  adicionar fotos, visualizar o acervo, buscar por palavra-chave
+                  e remover fotos, tudo via menu interativo em Python.
+                </div>
+                <div class="proj-tags">
+                  <span class="btag tp">Python 3</span>
+                  <span class="btag tl">Terminal</span>
+                  <span class="btag tl">Lógica</span>
+                </div>
+              </div>
+              <div class="proj-footer">
+                <a
+                  href="https://github.com/SofiaHagio/FrameLab"
+                  target="_blank"
+                  class="proj-link"
+                  >⟨/⟩ Repositório</a
+                >
+              </div>
             </div>
           </div>
-          <div class="proj-card">
-            <div class="proj-header">
-              <div class="proj-icon">🍷</div>
-              <span class="proj-status">Concluído</span>
-            </div>
-            <div class="proj-body">
-              <div class="proj-name">Vinheria Agnello</div>
-              <div class="proj-desc">
-                Sistema de monitoramento de luminosidade em uma vinheria, criado
-                para controlar a exposição dos vinhos à luz por meio de sensor
-                LDR, com alertas visuais e sonoros que ajudam a manter condições
-                ideais de armazenamento e conservação.
+        </div>
+
+        <!-- ARDUINO -->
+        <div class="proj-panel" id="tab-arduino">
+          <div class="projects-grid">
+            <div class="proj-card">
+              <div class="proj-header">
+                <div class="proj-icon">🍷</div>
+                <span class="proj-status">Concluído</span>
               </div>
-              <div class="proj-tags">
-                <span class="btag tl">C++</span>
-                <span class="btag to">Arduino UNO</span>
+              <div class="proj-body">
+                <div class="proj-name">Vinheria Agnello</div>
+                <div class="proj-desc">
+                  Sistema de monitoramento ambiental para vinheria, desenvolvido
+                  com Arduino Uno para controlar luminosidade, temperatura e
+                  umidade do ambiente de armazenamento. Utiliza sensor LDR,
+                  sensor DHT11 e display LCD 16x2, acionando LEDs e buzzer com
+                  alertas em tempo real conforme os níveis detectados.
+                </div>
+                <div class="proj-tags">
+                  <span class="btag tl">C++</span>
+                  <span class="btag to">Arduino UNO</span>
+                  <span class="btag tg">DHT11</span>
+                  <span class="btag tg">LCD 16x2</span>
+                </div>
+              </div>
+              <div class="proj-footer">
+                <a
+                  href="https://github.com/SofiaHagio/Vinheria-Agnello"
+                  target="_blank"
+                  class="proj-link"
+                  >⟨/⟩ Repositório</a
+                >
               </div>
             </div>
-            <div class="proj-footer">
-              <a
-                href="https://github.com/SofiaHagio/Vinheria-Agnello"
-                target="_blank"
-                class="proj-link"
-                >⟨/⟩ Repositório</a
-              >
+            <div class="proj-card">
+              <div class="proj-header">
+                <div class="proj-icon">🚨</div>
+                <span class="proj-status">Concluído</span>
+              </div>
+              <div class="proj-body">
+                <div class="proj-name">DisasterLink — Kit de Emergência</div>
+                <div class="proj-desc">
+                  Sistema de comunicação de emergência em Arduino que simula o
+                  recebimento de um SOS via rádio LoRa, tenta envio por 4G e
+                  aciona satélite Iridium como fallback. LEDs e buzzer
+                  reproduzem os alertas visuais e sonoros do kit físico
+                  portátil.
+                </div>
+                <div class="proj-tags">
+                  <span class="btag tl">C++</span>
+                  <span class="btag to">Arduino UNO</span>
+                  <span class="btag tg">LoRa</span>
+                  <span class="btag tp">Wokwi</span>
+                </div>
+              </div>
+              <div class="proj-footer">
+                <a
+                  href="https://github.com/SofiaHagio/DisasterLink"
+                  target="_blank"
+                  class="proj-link"
+                  >⟨/⟩ Repositório</a
+                >
+              </div>
             </div>
           </div>
         </div>

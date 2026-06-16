@@ -673,6 +673,46 @@ nav {
   border-color: rgba(196,168,219,0.5); 
   background: rgba(196,168,219,0.08); 
 }
+
+.proj-tabs {
+  display: flex;
+  gap: .75rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.proj-tab {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: .85rem;
+  padding: .55rem 1.4rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all .25s;
+  letter-spacing: .03em;
+}
+
+.proj-tab:hover {
+  border-color: rgba(255,255,255,0.25);
+  color: var(--fg);
+}
+
+.proj-tab.active {
+  background: var(--orange);
+  border-color: var(--orange);
+  color: #1a1208;
+  font-weight: 600;
+}
+
+.proj-panel {
+  display: none;
+}
+
+.proj-panel.active {
+  display: block;
+}
  
 /*EXPERIENCE*/
 #experience { 
