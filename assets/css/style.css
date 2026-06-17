@@ -96,17 +96,6 @@ nav {
   justify-content: center; 
 }
 
-.hero-available {
-  display: inline-flex; 
-  align-items: center; 
-  gap: 0.5rem;
-  font-size: 0.7rem; 
-  color: var(--green);
-  letter-spacing: 0.15em; 
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
-
 .hero-available::before {
   content: '';
   width: 8px; 
