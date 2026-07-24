@@ -7,6 +7,7 @@
 Feito do zero com HTML, CSS e JavaScript, sem frameworks.
 
 [![Acessar o portfólio](https://img.shields.io/badge/Vercel-sofiahagio.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sofiahagio.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sofiahagio-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sofiahagio)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
