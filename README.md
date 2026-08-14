@@ -41,6 +41,18 @@ Feito do zero com HTML, CSS e JavaScript, sem frameworks.
 
 ---
 
+## Projetos em destaque
+
+| Projeto | O que é | Tecnologias | Links |
+|---|---|---|---|
+| **DisasterLink** | Comunicação de emergência para desastres, com kit em Arduino, central em Python e site | Arduino · Python · HTML/CSS/JS | [Organização](https://github.com/SpaceConnect-DisasterLink) · [Site](https://disasterlink-webdevelopment.vercel.app/) |
+| **Vinheria Agnello** | Monitoramento de adega que evolui de Arduino a IoT com FIWARE na AWS | Arduino · ESP32 · MQTT | [Repositório](https://github.com/SofiaHagio/Vinheria-Agnello) |
+| **Pug e a Lua Vermelha** | Jogo de plataforma 2D com arte e sons gerados por código | Python · Pygame CE | [Repositório](https://github.com/SofiaHagio/Jogo-do-Pug) |
+| **LetterBot** | Chatbot de terminal que recomenda filmes | Python | [Repositório](https://github.com/SofiaHagio/LetterBot) |
+| **AKASOVI** | Site de uma academia fictícia com abertura animada | HTML · CSS · GSAP | [Repositório](https://github.com/SofiaHagio/AKASOVI) · [Site](https://akasovi.vercel.app/) |
+
+---
+
 ## Como executar
 
 O site é estático: não precisa de instalação nem de build.
