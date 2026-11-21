@@ -45,6 +45,7 @@ Feito do zero com HTML, CSS e JavaScript, sem frameworks.
 
 | Projeto | O que é | Tecnologias | Links |
 |---|---|---|---|
+| **Memora** | Caixa de remédios conectada para idosos com Alzheimer, com central em Python e painel web | ESP32 · Python · React | [Organização](https://github.com/CitizenTech-Memora) · [Painel](https://memora-painel.vercel.app) |
 | **DisasterLink** | Comunicação de emergência para desastres, com kit em Arduino, central em Python e site | Arduino · Python · HTML/CSS/JS | [Organização](https://github.com/SpaceConnect-DisasterLink) · [Site](https://disasterlink-webdevelopment.vercel.app/) |
 | **Vinheria Agnello** | Monitoramento de adega que evolui de Arduino a IoT com FIWARE na AWS | Arduino · ESP32 · MQTT | [Repositório](https://github.com/SofiaHagio/Vinheria-Agnello) |
 | **Pug e a Lua Vermelha** | Jogo de plataforma 2D com arte e sons gerados por código | Python · Pygame CE | [Repositório](https://github.com/SofiaHagio/Jogo-do-Pug) |
