@@ -389,7 +389,7 @@ button {
 
 .education-card {
   padding: 2.25rem;
-  background: var(--bg-alt);
+  background: var(--bg);
   border: 1px solid var(--border);
   border-bottom: 3px solid var(--accent);
   border-radius: var(--radius);
@@ -458,7 +458,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 1.6rem;
-  background: var(--bg);
+  background: var(--bg-alt);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   transition: 0.3s;
