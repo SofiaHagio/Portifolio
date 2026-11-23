@@ -24,11 +24,11 @@ Feito do zero com HTML, CSS e JavaScript, sem frameworks.
 | Seção | Conteúdo |
 |---|---|
 | **Sobre mim** | Apresentação, links e download do currículo |
-| **Skills** | Habilidades técnicas separadas por categoria |
-| **Formação** | Engenharia de Software na FIAP e Técnico em Informática no SENAC |
+| **Skills** | Dados, Desenvolvimento, Design e Ferramentas, com o que faço em cada habilidade |
 | **Projetos** | Trabalhos com links para o repositório, o site e a simulação |
-| **Experiência** | Experiência profissional |
-| **Contato** | Canais de contato |
+| **Formação** | Engenharia de Software na FIAP e Técnico em Informática no SENAC |
+| **Experiência** | Estágio de TI no Grupo 3corações e aprendiz de TI na Prefeitura de São Paulo |
+| **Contato** | E-mail, GitHub e LinkedIn |
 
 ---
 
@@ -37,6 +37,7 @@ Feito do zero com HTML, CSS e JavaScript, sem frameworks.
 - **Responsivo:** o layout se adapta ao computador, ao tablet e ao celular.
 - **Animações leves:** as seções aparecem suavemente conforme a página rola, sem bibliotecas externas.
 - **Menu inteligente:** o item da seção que está na tela fica destacado.
+- **Skills em cartões:** cada habilidade aparece com ícone e uma descrição curta do que faço com ela, organizadas por área.
 - **Componentes reaproveitáveis:** cartões, etiquetas e cores de destaque definidos uma vez no CSS e usados em todas as seções.
 
 ---
@@ -45,9 +46,9 @@ Feito do zero com HTML, CSS e JavaScript, sem frameworks.
 
 | Projeto | O que é | Tecnologias | Links |
 |---|---|---|---|
-| **Memora** | Caixa de remédios conectada para idosos com Alzheimer, com central em Python e painel web | ESP32 · Python · React | [Organização](https://github.com/CitizenTech-Memora) · [Painel](https://memora-painel.vercel.app) |
-| **DisasterLink** | Comunicação de emergência para desastres, com kit em Arduino, central em Python e site | Arduino · Python · HTML/CSS/JS | [Organização](https://github.com/SpaceConnect-DisasterLink) · [Site](https://disasterlink-site.vercel.app) |
-| **Vinheria Agnello** | Monitoramento de adega que evolui de Arduino a IoT com FIWARE na AWS | Arduino · ESP32 · MQTT | [Repositório](https://github.com/SofiaHagio/Vinheria-Agnello) |
+| **Memora** | Caixa de remédios conectada para idosos com Alzheimer, com central em Python e painel web | ESP32 · Python · React | [Organização](https://github.com/CitizenTech-Memora) · [Painel](https://memora-painel.vercel.app) · [Simulação](https://wokwi.com/projects/480810351690378241) |
+| **DisasterLink** | Comunicação de emergência para desastres, com kit em Arduino, central em Python e site | Arduino · Python · HTML/CSS/JS | [Organização](https://github.com/SpaceConnect-DisasterLink) · [Site](https://disasterlink-site.vercel.app) · [Simulação](https://wokwi.com/projects/465923138582135809) |
+| **Vinheria Agnello** | Monitoramento de adega que evolui de Arduino a IoT com FIWARE na AWS | Arduino · ESP32 · MQTT | [Repositório](https://github.com/SofiaHagio/Vinheria-Agnello) · [Simulação](https://wokwi.com/projects/478084578183721985) |
 | **Pug e a Lua Vermelha** | Jogo de plataforma 2D com arte e sons gerados por código | Python · Pygame CE | [Repositório](https://github.com/SofiaHagio/Jogo-do-Pug) |
 | **LetterBot** | Chatbot de terminal que recomenda filmes | Python | [Repositório](https://github.com/SofiaHagio/LetterBot) |
 | **AKASOVI** | Site de uma academia fictícia com abertura animada | HTML · CSS · GSAP | [Repositório](https://github.com/SofiaHagio/AKASOVI) · [Site](https://akasovi.vercel.app/) |
